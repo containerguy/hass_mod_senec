@@ -1,3 +1,0 @@
-[submodule "mod_senec"]
-	path = mod_senec
-	url = https://github.com/containerguy/hass_mod_senec.git
