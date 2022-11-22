@@ -1,0 +1,3 @@
+name: 'Home Assistant addon-repository for mod_senec'
+url: 'https://github.com/containerguy/mod_senec'
+maintainer: René Keller <rene@familie-keller.info>'
