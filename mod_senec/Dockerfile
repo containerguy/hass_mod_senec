@@ -8,6 +8,4 @@ RUN pip3 install -U selenium
 WORKDIR /app
 COPY ./trigger_senec.py /app/
 COPY ./run.sh /
-RUN chmod a+x *.py
-RUN chmod a+x *.sh
 CMD [ "/run.sh" ]
