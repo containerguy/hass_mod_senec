@@ -7,5 +7,7 @@ RUN apk add chromium-chromedriver
 RUN pip3 install -U selenium
 WORKDIR /app
 COPY ./trigger_senec.py /app/
+COPY ./run.sh /app/
 RUN chmod a+x *.py
-CMD ["python", "/app/trigger_senec.py"]
+RUN chmod a+x *.sh
+CMD [ "/app/run.sh" ]
