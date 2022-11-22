@@ -1,3 +1,0 @@
-chromedriver-autoinstaller
-webdriver-auto-update
-selenium
