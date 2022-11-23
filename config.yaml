@@ -10,5 +10,7 @@ arch:
   - armv7
 options:
   SENEC_HOST: 192.168.1.1
+  debug_mode: false
 schema:
   SENEC_HOST: str
+  debug_mode: bool
