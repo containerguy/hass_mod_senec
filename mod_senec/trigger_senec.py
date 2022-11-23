@@ -3,8 +3,12 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
+import sys
 import time
 import os
+
+
+
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument('--headless')
@@ -12,7 +16,7 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument("--disable-setuid-sandbox")
 
 driver = webdriver.Chrome(options=chrome_options)
-start_url = "http://" + os.environ.get('SENEC_HOST')
+start_url = "http://" + argv[0]
 driver.get(start_url)
 #print(driver.page_source.encode("utf-8"))
 submenu_setup = driver.find_element(By.XPATH, '//*[@id="lSetup"]')

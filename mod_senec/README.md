@@ -11,6 +11,7 @@ This repo uses cosign for signing the container image, which is part of the buil
 # Usage
 * Add Repo to Home Assistant AddOn Store
 * Install AddOn through AddOn store
+  * Configure IP in Config Tab
 
 # ToDos
 * Check if safety loading is activated
