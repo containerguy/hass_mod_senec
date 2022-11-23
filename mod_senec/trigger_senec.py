@@ -17,6 +17,7 @@ chrome_options.add_argument("--disable-setuid-sandbox")
 
 driver = webdriver.Chrome(options=chrome_options)
 start_url = "http://" + sys.argv[0]
+print("Start URL: " + start_url)
 driver.get(start_url)
 #print(driver.page_source.encode("utf-8"))
 submenu_setup = driver.find_element(By.XPATH, '//*[@id="lSetup"]')
