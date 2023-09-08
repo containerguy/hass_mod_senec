@@ -1,6 +1,6 @@
 name: "mod_senec"
 description: "mod_senec HomeAssistant AddOn"
-version: "0.2.2"
+version: "0.2.3"
 slug: "mod_senec"
 init: false
 arch:
