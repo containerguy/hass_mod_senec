@@ -16,7 +16,7 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument("--disable-setuid-sandbox")
 
 driver = webdriver.Chrome(options=chrome_options)
-start_url = "http://" + sys.argv[1]
+start_url = "https://" + sys.argv[1]
 print("Start URL: " + start_url)
 driver.get(start_url)
 #print(driver.page_source.encode("utf-8"))
